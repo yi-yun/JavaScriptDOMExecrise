@@ -1,0 +1,33 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/layout.css" media="screen" />
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href="images/fireworks.jpg" title="fire fire fire" 
+            onclick="showPic(this); return false;">Fireworks</a>
+        </li>
+        <li>
+            <a href="images/coffee.jpg" title="en that's good" 
+            onclick="showPic(this); return false;">Coffee</a>
+        </li>
+        <li>
+            <a href="images/rose.jpg" title="I love you" 
+            onclick="showPic(this); return false;">Rose</a>
+        </li>
+        <li>
+            <a href="images/bigben.jpg" title="It's no time" 
+            onclick="showPic(this); return false;">BigBen</a>
+        </li>
+    </ul>
+    <!-- <a href="http://www.baidu.com/" onclick="return true">click</a><br/> -->
+    <img id="placeholder" src="images/placeholder.gif" alt="place" />
+    <p id="description">Please a pic</p>
+    <script type="text/javascript" src="js/showPic.js" ></script>
+</body>
+</html>
