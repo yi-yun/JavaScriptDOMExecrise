@@ -5,7 +5,7 @@ function showPic(which) {
 
     var text=which.getAttribute("title");
     var des=document.getElementById("description");
-    des.firstChild.nodeValue=text;
+    des.firstChild.nodeValue="nihao";
 }
 function countBodyChildren(){
     var body_element=document.getElementsByTagName("body")[0];
