@@ -3,9 +3,9 @@ function showPic(which) {
     var placeholder=document.getElementById("placeholder");
     placeholder.setAttribute("src",source);
 
-    var text=which.getAttribute("title");
+    var text1=which.getAttribute("title");
     var des=document.getElementById("description");
-    des.firstChild.nodeValue="nihao";
+    des.firstChild.nodeValue=text1;
 }
 function countBodyChildren(){
     var body_element=document.getElementsByTagName("body")[0];
