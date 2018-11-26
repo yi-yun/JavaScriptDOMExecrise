@@ -4,7 +4,7 @@ function showPic(which) {
     placeholder.setAttribute("src",source);
 
     var text1=which.getAttribute("title");
-    alert(text1);
+    // alert(text1);
     var des=document.getElementById("description");
     des.firstChild.nodeValue=text1;
 }
